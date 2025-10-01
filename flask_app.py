@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Correct credentials for brute force
 CORRECT_USERNAME = "admin"
-CORRECT_PASSWORD = "security2024"
+CORRECT_PASSWORD = "security2025"
 
 # Rate limiting - track failed attempts
 failed_attempts = {}
@@ -29,7 +29,7 @@ PASSWORDS = [
     "password", "123456", "admin123", "letmein", "welcome",
     "password123", "admin", "root", "qwerty", "abc123",
     "12345678", "password1", "welcome123", "admin2024", "test123",
-    "user123", "pass123", "security", "security2024", "cyber123",
+    "user123", "pass123", "security", "security2025", "cyber123",
     "hack123", "login123", "access123", "secret123", "master123",
     "super123", "power123", "ultra123", "mega123", "hyper123",
     "dragon", "shadow", "phoenix", "falcon", "eagle",
